@@ -1,0 +1,183 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
+    <title>Portofolio</title>
+</head>
+<body>
+
+    <!--Header and Hero section-->
+    <header id="beg" class="hero">
+        <nav class="navbar">
+            <div class="logo">Aleja Port.</div>
+
+            <!--Hamburger menu-->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span> <!--Lines-->
+                <span></span>
+                <span></span>
+            </label>
+
+            <!--Menu content-->
+            <ul class="nav-menu">
+                <li><a href="#about">About me</a></li>
+                <li><a href="#projects_">Projects</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </nav>
+
+        <!--Hero-->
+        <div class="hero-content">
+            <span>Hi, how's it going?</span>
+            <h1>I'm Aleja Quiroga</h1>
+            <p>and I'm happy you're here to know a little more about me.</p>
+            <a href="#about"><button class="cta-button">Let's start</button></a>
+        </div>
+    </header>
+
+    <main>
+
+        <!--About me-->
+        <section class="about_me" id="about">
+
+            <!--Profile picture and tittle-->
+            <div class="abm-image">
+                <img src="./assets/images/profile-pic.jpeg" alt="DProfile picture"><br>
+                <h2>About <b>me</b></h2>
+            </div>
+
+
+            <!--Description about me-->
+            <div class="abm-text">
+                <p class="description">
+                    To start, I'm a girl who's really passionate about learning; I love picking up new things. I'm a Multimedia Producer and currently studying Marketing and Digital Business at UNAD. Because of that, I'm really into <b>graphic design, audiovisual production,</b> and everything related to that amazing world. <br><br>
+
+                    I'm also very interested in <b>software development</b>. It's really grown on me, and I'm super excited about the idea of seeing how I can blend this with my other passions to create great things.</p>
+                </p>
+            </div>
+        </section>
+
+         <!--Skills-->
+        <section class="skills">
+
+                <!--Tittle-->
+                <h2>Skil<b>ls</b></h2>
+
+                <!--My skills-->
+                <ul class="sk_info">
+                    <li class="button_0">UI/UX Design</li>
+                    <li class="button_1">Web Designer / Developer</li><br><br>
+                    <li class="button_1">Prototyping and wireframing</li>
+                    <li class="button_0">Frontend development</li><br><br>
+                    <li class="button_1">Branding and Identity design (with Digital implementation)</li><br><br>
+                    <li class="button_0">Attention to detail</li>
+                    <li class="button_1">Creativity and innovation</li>
+                </ul>
+
+        </section>
+
+
+        <!--My projects-->
+        <section id="projects_" class="projects">
+
+            <!--Tittle-->
+            <h2><b>Pro</b>jects</h2>
+
+            <!--My projecst in cards-->
+            <div class="project-grid">
+                <div class="project_card">
+                    <h3><b>Photo</b>graphy</h3>
+                    <a href="https://drive.google.com/drive/folders/1TOn9egzFFppPKaZWxE1abSgu-DHOAXUA" target="_blank"><img src="./assets/images/photography.jpeg" alt="Picture"></a>
+                </div>
+                <div class="project_card">
+                    <h3>Street <b>chronicles</b></h3>
+                    <a href="./assets/docs/Dignidad sobre ruedas y aceras.pdf" download="Dignidad sobre ruedas y aceras"><img src="./assets/images/Dignidad sobre ruedas y aceras.jpg" alt="Street chronicles"></a>
+                </div>
+                <div class="project_card">
+                    <h3>Depth of field and <b>movement</b></h3>
+                    <a href="./assets/docs/Profundidad de campo y Movimiento (1).pdf" download="Portafolio-Profundidad de campo y Movimiento"><img src="./assets/images/Profundidad de campo y Movimiento.jpg" alt="Depth of field and movement"></a>
+                </div>
+            </div>
+        </section>
+
+        <!--Phrase-->
+        <section class="phrase">
+            <h1>An experience through <b>design</b>, madness and lots and lots of <b>love.</b></h1>
+        </section>
+
+        <!--Contact form-->
+        <section id="contact" class="contact">
+
+            <!--Form-->
+            <div class="form">
+                <form>
+                    <div class="form-container">
+                        <h2>Contact <b>me</b></h2>
+                        <form action="#" method="post">
+                        <label for="name">Full name</label>
+                        <input type="text" id="name" name="name" required placeholder="Full name" minlength="3">
+
+                        <label for="correo">Email</label>
+                        <input type="email" id="mail" name="mail" required placeholder="yourname@mail.com">
+
+                        <label for="mensaje">Message</label>
+                        <textarea id="message" name="menssage" rows="3" placeholder="Write your message here ..."></textarea>
+
+                        <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </form>
+            </div>
+
+            <!--Image that is next to the form-->
+            <div class="image">
+                <img src="https://cdn.pixabay.com/photo/2023/02/21/13/10/cartoon-7804257_1280.jpg" alt="Form image">
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+
+    <!--Part 1 | Left-->
+      <div class="footer-section">
+        <h3>Aleja <b>Port.</b></h3>
+        <p>An experience through <b>design</b>, madness and lots and lots of <b>love.</b></p>
+      </div>
+
+    <!--Part 2 | Middle-->
+      <div class="footer-section">
+        <h3>Links</h3>
+        <ul>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#projects_">My projects</a></li>
+          <li><a href="#contact">Contact me</a></li>
+        </ul>
+      </div>
+
+    <!--Part 3 | Right-->
+      <div class="footer-section">
+        <h3>Contact <b>me</b></h3>
+        <ul>
+          <li>alejandraquirogag802@gmail.com</li>
+          <li>+57 314 297 0157</li>
+          <li>Colombia</li>
+        </ul>
+      </div>
+    </div>
+
+    <!--Bottom-->
+    <div class="footer-bottom">
+      © 2025 Portofolio - Alejandra Quiroga Greñas. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
