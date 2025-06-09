@@ -1,0 +1,593 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*This means the specified width and height apply only to the content area inside the element. */
+    scroll-behavior: smooth; /*WHEN WE SCROLL ON THE PAGE, IT SCROLLS SMOOTHLY*/
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navegation */
+header {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /*Distribute my content at the top and bottom of my container*/
+    align-items: center;
+    padding: 1rem 5%; /*Above it separates 1rem and on the sides it separates them 5%*/
+    width: 100%;
+    z-index: 1; /*The menu overlaps the background image*/
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: all.3s ease;
+}
+
+.nav-menu a:hover {
+    background-color: #9b47d3;
+    box-shadow: 5px 5px 12px#3f0a6365;
+    border-radius: 15px;
+    padding: 1px 20px;
+}
+
+/* Hamburguer menu */
+
+/*It keeps it hidden at first but we give properties to the elements it contains inside*/
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label { 
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.nav-toggle-label span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+
+/* Hero Section */
+.hero {
+    height: 100vh; /*It takes up 100% of my vision*/
+    background: linear-gradient(#00000080, #00000080),
+                url('https://cdn.pixabay.com/photo/2020/04/02/22/05/home-office-4996834_1280.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative; /*Allows to move the element without affecting other elements in their original position. According to the normal flow of the website.*/
+}
+
+.hero-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    margin-top: 22px;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    background-color: #b266e4;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cta-button:hover {
+    background-color: #9b47d3;
+    box-shadow: 5px 5px 12px#3f0a6365;
+    transform: translateY(5px);
+}
+
+
+/*About me*/
+.about_me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  border-bottom: 1px dashed #ccc
+}
+
+.abm-image {
+  flex: 1; /*Half*/
+  padding: 50px; 
+  text-align: center;
+}
+
+.abm-image img {
+  max-width: 50%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.about_me h2{
+    font-size: 3rem;
+}
+
+b{
+    color: #b266e4;
+    font-weight: 700;
+}
+
+.description{
+    padding: 60px;
+    box-shadow: 0 4px 12px #0000001a;
+    transition: all 0.5s ease;
+    rotate: 1deg;
+}
+
+.description:hover{
+    box-shadow: 5px 5px 12px#d290ff65;
+    transform: translateY(5px);
+    rotate: 0deg;
+}
+
+#first_txt{
+    text-align: center;
+}
+.abm-text {
+  flex: 1;  /*Other half*/
+  padding: 20px;
+  text-align: justify; 
+  line-height: 1.6;
+}
+
+
+/*Skills*/
+
+.skills h2{
+    font-size: 2.5rem;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-bottom: 1px dashed #ccc
+}
+.sk_info{
+    padding: 50px; 
+    text-align: center;
+    list-style: none;
+    margin: 0 auto;
+
+}
+
+.button_0{
+    cursor:default;
+    display: inline-block;
+    background-color: #b266e4;
+    box-shadow: 0 4px 12px white;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+}
+
+
+.button_1{
+    cursor:default;
+    display: inline-block;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px #b266e44f;
+    color: rgb(41, 41, 41);
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+}
+
+.button_0:hover{
+    box-shadow: 5px 5px 12px#881ecf65;
+    transform: translateY(-5px);
+    padding: 10px 35px;
+}
+.button_1:hover{
+    box-shadow: 5px 5px 12px#881ecf65;
+    transform: translateY(-5px);
+    padding: 10px 35px;
+}
+
+
+/* Projects */
+
+.projects h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Grid that automatically adjusts content */
+    gap: 30px; /* Separation of content */
+    justify-content: center; /* Center elements in the grid */
+    margin: 20px auto;
+}
+
+.project_card{
+   background-color: #fff;
+   box-shadow: 0 6px 16px #00000014;
+   transition: all 0.5s ease;
+   padding: 20px 25px;
+   text-align: center;
+   rotate: 7deg;
+}
+
+.project_card img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.project_card:hover{
+    rotate: 3deg;
+    transform: translateY(-5px);
+    padding: 10px 35px;
+}
+
+/*Phrase*/
+.phrase{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 3rem;
+    padding: 12px;
+}
+
+/* Contact */
+.contact {
+  display: flex;
+  min-height: 100vh;
+  margin: 20px auto; 
+  max-width: 1200px; 
+  flex-wrap: wrap;
+}
+
+.form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px; 
+  background-color: #fff;
+  flex-grow: 1; /* Allows the form to grow */
+  min-width: 300px; 
+}
+
+.form-container {
+  max-width: 600px;
+  margin: auto; 
+  padding: 30px 80px;
+  box-shadow: 0 4px 10px #0000001a;
+  width: 100%; 
+}
+
+.form-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #030303;
+  margin-bottom: 45px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #1f1f1f;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 5px;
+  border: 0;
+  border-bottom: 2px solid #727272;
+  outline: 0;
+  font-size: 16px;
+  color: #505050;
+  transition: 0.5s ease-in-out;
+  background: transparent;
+  font-family: 'Poppins', sans-serif;
+}
+
+input:focus, select:focus, textarea:focus { 
+  border-color: #af36ff;
+}
+
+.form-container button {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 25px;
+  background-color: #b266e4;
+  color: #ffffff;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  transition: all 1s ease;
+}
+
+button:hover {
+  background-color: #9022da;
+  box-shadow: 0 2px 5px #5353537c;
+}
+
+.image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /* Allows the image to grow */
+  min-width: 300px; /* Minimum width for the image */
+}
+
+.image img {
+  width: 100%;
+  max-width: 500px; 
+  border-radius: 15px;
+  height: auto; 
+}
+
+/*Footer*/
+footer {
+  background-color: #f7f7f7c5;
+  color: #272727;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.footer-section h3 img {
+  vertical-align: middle;
+  margin-right: 5px;
+  height: 24px; 
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #272727;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #9646ff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #272727;
+}
+
+/* @ MEDIA QUERIES ----------------------------------------------------------------------*/
+
+/* Desktop | For screens of 1200px or more  */
+@media (min-width: 1221px) {
+
+    main {
+        margin: 20px 100px;
+        padding: 20px 0;
+    }
+
+    /*Projects*/
+    .project-grid{
+        margin: 10px 200px;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for products */
+    }
+
+    /*Phrase*/
+    .phrase{
+        margin-top: 100px;
+        text-align: center;
+        font-size: 3rem;
+        padding: 12px;
+    }
+
+    /*Contact me*/
+    .form {
+        padding: 40px 80px;
+    }
+}
+
+/* Tablets | For screens from 768px to 1220px */
+@media (min-width: 768px) and (max-width: 1220px) {
+
+    main {
+        margin: 15px 30px;
+        padding: 15px 0;
+    }
+
+    /*Projects*/
+    .project-grid{
+        margin: 10px 70px;
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas para productos */       
+    }
+
+    /*Phrase*/
+    .phrase{
+        margin-top: 100px;
+        text-align: center;
+        font-size: 2rem;
+        padding: 12px;
+    }
+
+    /*Contact me*/
+    .form {
+        padding: 30px;
+    }
+
+    .contact {
+        margin: 20px 50px;
+    }
+
+    /*Footer*/
+    .footer-container {
+        justify-content: space-around;
+    }    
+}
+
+
+/* Phone | For screens from 375px to 767px */
+@media (max-width: 767px) {
+
+    /*Hamburguer menu*/
+    .nav-toggle-label {
+        display: flex; /*The menu lines appear*/
+    }
+
+    .nav-menu { /*General styles of the menu*/
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        flex-direction: column;
+        padding: 1rem 0;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .nav-toggle:checked ~ .nav-menu { /*If I click on the checkbox, the menu is displayed.*/
+        display: flex;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    .nav-menu li {
+        margin: 1rem 0;
+    }
+
+    .nav-menu a {
+        color: white;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .project-grid{
+        margin: 5px 15px;
+        grid-template-columns: 1fr; /* 1 column for products */
+    }
+
+
+    /*About me*/
+    .about_me {
+    flex-direction: column;
+    }
+    .abm-image, .abm-text {
+        flex: none; 
+        width: 100%; 
+    }
+
+    /*Phrase*/
+    .phrase{
+        margin-top: 100px;
+        text-align: center;
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    /*Contact me*/
+    .contact {
+        flex-direction: column;
+        margin: 10px 20px; 
+    }
+
+    .form, .image {
+        width: 100%;
+        padding: 20px 0; 
+    }
+
+    /*Footer*/
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+}
