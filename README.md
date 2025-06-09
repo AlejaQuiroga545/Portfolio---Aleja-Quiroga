@@ -6,29 +6,21 @@ Welcome to my personal portfolio website! This site was built from scratch using
 
 ## 📸 Screenshots
 
-![image](https://github.com/user-attachments/assets/18fbbb97-f796-446c-b072-3aad23d79ca0)![image](https://github.com/user-attachments/assets/4777b813-a1a5-4016-8dbf-6250f9322d91)
-
-
-
-|--------------|-------------|
-| ![desktop](path/to/desktop.png) | ![mobile](path/to/mobile.png) |
+| ![![image](https://github.com/user-attachments/assets/18fbbb97-f796-446c-b072-3aad23d79ca0)| 
+![image](https://github.com/user-attachments/assets/43c08a81-0d65-4af0-a6e3-1b436e4afab4)
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - ✅ **Fully responsive** layout for mobile, tablet, and desktop devices  
-- ✅ **Semantic HTML structure** for better accessibility and SEO  
+- ✅ **Semantic HTML structure**  
 - ✅ Custom fonts via **Google Fonts** and a soft, modern color palette  
-- ✅ Smooth transitions and **CSS animations**  
-- ✅ Sticky navigation bar with smooth scrolling  
-- ✅ Styled contact form ready for backend integration  
-- ✅ Highlighted sections with project cards, icons, and elegant layout  
-- ✅ Basic SEO optimization using proper `meta` tags  
-
+- ✅ Smooth transitions and **CSS animations**   
+- ✅ Styled contact form 
 ---
 
-## 🧱 Technologies Used
+## Technologies Used
 
 | Technology / Tool | Description |
 |------------------------|----------------------------------------|
@@ -45,30 +37,27 @@ Welcome to my personal portfolio website! This site was built from scratch using
 
 ---
 
-## 👨‍💻 Website Sections
+## Website Sections
 
-### 🏠 Home (`index.html`)
-- Hero image or background video
+### Header
+- Hero image
+- Navigation bar
 - Name, title, and call-to-action button
-- Scroll-triggered animations (to be added)
 
-### 👤 About Me (`about.html`)
+### About me
 - Personal photo
 - Short professional bio
 - Technical skills (HTML, CSS, Git, etc.)
 - Tools I use (Figma, VS Code, etc.)
 
-### 💼 Projects (`projects.html`)
-- Cards displaying:
-  - Project name and short description
+### Projects
+- Cards:
+  - Project name
   - Image preview
-  - Technologies used
-  - Links to "Live Demo" and "Source Code"
+  - Links
 
-### 📬 Contact (`contact.html`)
+### Contact me
 - Styled contact form with:
   - Name, email, and message fields
   - Submit button
-- Space reserved for future integration (EmailJS, backend)
-- Direct contact details (email, LinkedIn, etc.)
 
