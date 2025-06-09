@@ -6,7 +6,7 @@ Welcome to my personal portfolio website! This site was built from scratch using
 
 ## 📸 Screenshots
 
-| ![![image](https://github.com/user-attachments/assets/18fbbb97-f796-446c-b072-3aad23d79ca0)| 
+[![image](https://github.com/user-attachments/assets/18fbbb97-f796-446c-b072-3aad23d79ca0)| 
 ![image](https://github.com/user-attachments/assets/43c08a81-0d65-4af0-a6e3-1b436e4afab4)
 
 ---
