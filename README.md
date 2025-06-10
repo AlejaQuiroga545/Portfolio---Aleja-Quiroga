@@ -1,4 +1,4 @@
-# Portofolio-Aleja-Quiroga
+# Portfolio-Aleja-Quiroga
 
 Welcome to my personal portfolio website! This site was built from scratch using **HTML5** and **CSS3** to showcase my skills as a web developer and designer. It includes information about me, a collection of my projects and ways to get in touch. The site is designed with a focus on **usability, accessibility, and responsive design**.
 
@@ -61,3 +61,7 @@ Welcome to my personal portfolio website! This site was built from scratch using
   - Name, email, and message fields
   - Submit button
 
+---
+Coder | Alejandra Quiroga Greñas |
+        Lovelace |
+        C.C 1016713123
