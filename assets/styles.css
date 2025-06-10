@@ -75,12 +75,11 @@ header {
 /* Hero Section */
 .hero {
     height: 100vh; /*It takes up 100% of my vision*/
-    background: linear-gradient(#00000080, #00000080),
+    background: linear-gradient(#00000080, #000000c9),
                 url('https://cdn.pixabay.com/photo/2020/04/02/22/05/home-office-4996834_1280.jpg') center/cover no-repeat;
     display: flex;
     flex-direction: column;
     color: white;
-    position: relative; /*Allows to move the element without affecting other elements in their original position. According to the normal flow of the website.*/
 }
 
 .hero-content {
@@ -338,7 +337,6 @@ input, select, textarea {
   font-size: 16px;
   color: #505050;
   transition: 0.5s ease-in-out;
-  background: transparent;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -407,12 +405,6 @@ footer {
   color: #333;
 }
 
-.footer-section h3 img {
-  vertical-align: middle;
-  margin-right: 5px;
-  height: 24px; 
-}
-
 .footer-section ul {
   list-style: none;
 }
@@ -441,7 +433,7 @@ footer {
 
 /* @ MEDIA QUERIES ----------------------------------------------------------------------*/
 
-/* Desktop | For screens of 1200px or more  */
+/* Desktop | For screens of 1220px or more  */
 @media (min-width: 1221px) {
 
     main {
@@ -518,21 +510,16 @@ footer {
     .nav-menu { /*General styles of the menu*/
         display: none;
         position: absolute;
-        top: 100%;
-        left: 0;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.8);
         flex-direction: column;
         padding: 1rem 0;
         text-align: center;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
     .nav-toggle:checked ~ .nav-menu { /*If I click on the checkbox, the menu is displayed.*/
         display: flex;
         position: relative;
-        top: 0;
-        right: 0;
     }
 
     .nav-menu li {
@@ -543,14 +530,11 @@ footer {
         color: white;
     }
 
+
+    /*Hero*/
     .hero h1 {
         font-size: 2rem;
     }
-    .project-grid{
-        margin: 5px 15px;
-        grid-template-columns: 1fr; /* 1 column for products */
-    }
-
 
     /*About me*/
     .about_me {
@@ -559,6 +543,12 @@ footer {
     .abm-image, .abm-text {
         flex: none; 
         width: 100%; 
+    }
+
+    /*Projects*/
+    .project-grid{
+        margin: 5px 15px;
+        grid-template-columns: 1fr; /* 1 column for projects */
     }
 
     /*Phrase*/
