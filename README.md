@@ -62,6 +62,3 @@ Welcome to my personal portfolio website! This site was built from scratch using
   - Submit button
 
 ---
-Coder | Alejandra Quiroga Greñas |
-        Lovelace |
-        C.C 1016713123
