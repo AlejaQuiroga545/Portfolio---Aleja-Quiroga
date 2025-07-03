@@ -3,6 +3,7 @@
 Welcome to my personal portfolio website! This site was built from scratch using **HTML5** and **CSS3** to showcase my skills as a web developer and designer. It includes information about me, a collection of my projects and ways to get in touch. The site is designed with a focus on **usability, accessibility, and responsive design**.
 
 ---
+### ➡️ [Portfolio- Aleja QUiroga 🥰](https://github.com/AlejaQuiroga545/JavaScript/tree/3166fe6d7d29b03a8a6da5d46abe56386ecab90a/Semana%201/Taller_js_Aleja_Quiroga)
 
 ## 📸 Screenshots
 
